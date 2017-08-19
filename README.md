@@ -15,7 +15,7 @@ var eliza = new Eliza();
 console.log('>> ' + eliza.getInitial());
 
 // tell Eliza something
-let statement = 'I need you're help';
+let statement = 'I need some help';
 console.log('<< ' + statement);
 
 // let Eliza respond
