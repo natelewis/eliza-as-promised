@@ -1,0 +1,28 @@
+{
+  "name": "eliza-as-promised",
+  "description": "Eliza psychotherapist in Node.js as a promised based AI",
+  "keywords": [
+    "eliza",
+    "bot",
+    "elizabot",
+    "AI"
+  ],
+  "version": "0.0.1",
+  "private": false,
+  "license": "MIT",
+  "author": "Nate Lewis",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/natelewis/eliza-as-promised.git"
+  },
+  "bugs": {
+    "url": "https://github.com/natelewis/eliza-as-promised/issues"
+  },
+  "homepage": "https://github.com/natelewis/eliza-as-promised",
+  "engines": {
+    "node": "7"
+  }
+}
