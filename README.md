@@ -15,12 +15,12 @@ var eliza = new Eliza();
 console.log('>> ' + eliza.getInitial());
 
 // tell Eliza something
-let statement = 'I need your help';
+let statement = 'I need you're help';
 console.log('<< ' + statement);
 
-// let Eliza response.
-// response.final if your done, or response.reply if you still need more
-// therapy
+// let Eliza respond
+// will respond with response.final if you're done
+// will respond with response.reply if you still need more therapy
 eliza.getResponse(statement)
   .then((response) => {
     if (response.reply) {
@@ -31,4 +31,6 @@ eliza.getResponse(statement)
       process.exit(0);
     }
   });
+
+// repeat getResponse() over and over till response.final is defined
 ```
